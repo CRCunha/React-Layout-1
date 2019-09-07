@@ -3,6 +3,7 @@ import Header from './Components/Header';
 import Main from './Components/Main';
 import Divisoria from './Components/Divisoria';
 import Galeria from './Components/Galeria';
+import Footer from './Components/Footer';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Main />
         <Divisoria />
         <Galeria />
+        <Footer />
       </div>
     );
   }
