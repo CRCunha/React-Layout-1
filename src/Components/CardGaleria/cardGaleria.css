@@ -1,0 +1,7 @@
+.cardGaleria{
+    width: 22%;
+    height: 45%;
+    background-color: #f8f8f8; 
+    box-shadow: 0 20px 30px -16px rgba(9,9,16,.2);
+    border-radius: 5px;
+}

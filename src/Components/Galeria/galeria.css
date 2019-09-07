@@ -1,0 +1,24 @@
+.galeria{
+    width: 100%;
+    height: 650px;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    flex-wrap: var(--wrap);
+    padding-bottom: 50px;
+}
+
+.galeria .container{
+    margin-top: 50px;
+    width: 85%;
+    height: 85%;
+}
+
+.galeria .container .galeria-content{
+    margin-top: 50px;
+    width: 100%;
+    height: 480px;
+    display: var(--flex);
+    justify-content: var(--space-around);
+    flex-wrap: var(--wrap);
+}

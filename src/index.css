@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+}
+
+:root{
+  --flex: flex;
+  --center: center;
+  --flex-end: flex-end;
+  --flex-start: flex-start;
+  --space-evenly: space-evenly;
+  --space-around: space-around;
+  --space-between: space-between;
+  --wrap: wrap;
+  --nowrap: nowrap;
+  --font: 'Ubuntu', sans-serif;
+}
+
+/* animation: float 6s ease-in-out infinite; */
+
+@keyframes float {
+  0% {
+      transform: translatey(0px);
+  }
+  50% {
+      transform: translatey(-6px);
+  }
+  100% {
+      transform: translatey(0px);
+  }
+}

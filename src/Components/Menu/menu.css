@@ -1,0 +1,14 @@
+a{
+    border-radius: 3px;
+    border: solid 1px #3f3f3f60;  
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #3f3f3f;
+    transition: .5s;
+}
+
+a:hover{
+    background-color: #3f3f3f;
+    color: rgb(240, 240, 240);
+    transition: .5s;
+}

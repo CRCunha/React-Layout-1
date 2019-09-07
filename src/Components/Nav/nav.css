@@ -1,0 +1,30 @@
+.nav{
+    width: 80%;
+    height: 100px;
+    display: var(--flex);
+    justify-content: var(--space-between);
+
+}
+
+.nav .logo{
+    width: 20%;
+    height: 100%;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+
+}
+
+.nav .logo img{
+    width: 100%;
+    filter: brightness(20%);
+}
+
+.nav .menu{
+    width: 60%;
+    height: 100%;
+    display: var(--flex);
+    justify-content: var(--space-around);
+    align-items: var(--center);
+
+}
